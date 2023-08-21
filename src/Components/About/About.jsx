@@ -13,7 +13,9 @@ const About = () => {
     const circleRef = useRef(null)
 
     useEffect(() => {
-        const logoCurrentRef = logoRef.current
+        // timeout is set to wait for the H1 font to load, so we are sure the layout is not affected by it
+        setTimeout(() => {
+            const logoCurrentRef = logoRef.current
         const circleCurrentRef = circleRef.current
 
         gsap.to(logoCurrentRef, {
@@ -25,12 +27,8 @@ const About = () => {
             },
             width: '200vw'
         })
-
-    
-
+        }, 300);
         
-
-     
 
     },[])
 
