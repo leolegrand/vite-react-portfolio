@@ -1,0 +1,53 @@
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about__left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 50%;
+    height: 1000px;
+}
+
+.about__logo {
+    position: absolute;
+    aspect-ratio: 1/1;
+    background-color: #C2C2C2;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.about__logo svg {
+    height: 100%;
+}
+
+
+
+.about__circle {
+    position: absolute;
+    aspect-ratio: 1/1;
+    width: 33vw;
+    background-color: #C2C2C2;
+    border-radius: 50%;
+}
+
+.about__right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.about__description {
+    mix-blend-mode: difference;
+    width: 60%;
+    font-size: 2vw;
+}
+
+.highlighted {
+    color: white;
+}

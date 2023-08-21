@@ -1,0 +1,11 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    font-size: .825rem;
+    padding: 40px 3vw;
+}
+
+.header__right {
+    display: flex;
+    gap: 10vw;
+}
